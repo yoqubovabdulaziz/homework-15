@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/ticket.css">
+</head>
+<body>
+    <aside>
+        <nav>
+            <a class="logo">
+                <i class="fa-solid fa-dice-d6"></i>
+                <h3>Dashboard</h3>
+            </a>
+            <ul class="nav-list">
+                <li class="nav-items">
+                    <a href="/index.html" class="nav-link">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <span>Overview</span>
+                    </a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-ticket"></i>
+                        <span>Tickets</span>
+                    </a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <span>Ideas</span>
+                    </a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-users-line"></i>
+                        <span>Contacts</span>
+                    </a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <span>Agents</span>
+                    </a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Articles</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="nav-btn">
+            <div class="nav-btn-1">
+                <form>
+                    <input type="checkbox" class="switch">
+                </form>
+                <button>Change mode</button>
+            </div>
+            <div class="nav-btn-2">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                <button><span>Logout</span></button>
+            </div>
+        </div>
+    </aside>
+    <header>
+        <button class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="jones">
+            <h3>Yoqubov Abdulaziz</h3>
+            <img src="/images/jones.svg" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="caption">
+            <h1>Tickets</h1>
+            <div class="caption-btn">
+                <button class="dots-btn">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                <button class="add-btn">Add</button>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <th class="all-ticket">All tickets</th>
+                <tr>
+                    <th>Ticket details</th>
+                    <th>Customer name</th>
+                    <th>Date</th>
+                    <th>Priority</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tr">
+                    <td class="tb-ticket">
+                        <div class="tb-img">
+                            <img src="/images/img11.svg" alt="">
+                        </div>
+                        <div class="tb-text">
+                            Contact Email not Linked
+                            <span>Updated 1 day ago</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            Tom Cruise
+                            <span>on 24.05.2019</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            May 26, 2019
+                            <span>6:30 PM</span>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="span-1">
+                            High
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </td>
+                </tr>
+
+                <tr class="tr">
+                    <td class="tb-ticket">
+                        <div class="tb-img">
+                            <img src="/images/img12.svg" alt="">
+                        </div>
+                        <div class="tb-text">
+                            Adding Images to Featured Posts
+                            <span>Updated 1 day ago</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            Matt Damon
+                            <span>on 24.05.2019</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            May 26, 2019
+                            <span>8:00 AM</span>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="span-2">
+                            low
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </td>
+                </tr>
+
+                <tr class="tr">
+                    <td class="tb-ticket">
+                        <div class="tb-img">
+                            <img src="/images/img13.svg" alt="">
+                        </div>
+                        <div class="tb-text">
+                            When will I be charged this month?
+                            <span>Updated 1 day ago</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            Robert Downey
+                            <span>on 24.05.2019</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            May 26, 2019
+                            <span>7:30 PM</span>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="span-1">
+                            High
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </td>
+                </tr>
+
+                <tr class="tr">
+                    <td class="tb-ticket">
+                        <div class="tb-img">
+                            <img src="/images/img14.svg" alt="">
+                        </div>
+                        <div class="tb-text">
+                            Payment not going through
+                            <span>Updated 2 days ago</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            Christian Bale
+                            <span>on 24.05.2019</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            May 25, 2019
+                            <span>5:00 PM</span>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="span-3">
+                            Normal
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </td>
+                </tr>
+
+                <tr class="tr">
+                    <td class="tb-ticket">
+                        <div class="tb-img">
+                            <img src="/images/img15.svg" alt="">
+                        </div>
+                        <div class="tb-text">
+                            Unable to add replies
+                            <span>Updated 2 days ago</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            Henry Cavil
+                            <span>on 24.05.2019</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            May 25, 2019
+                            <span>4:00 PM</span>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="span-1">
+                            High
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </td>
+                </tr>
+
+                <tr class="tr">
+                    <td class="tb-ticket">
+                        <div class="tb-img">
+                            <img src="/images/img16.svg" alt="">
+                        </div>
+                        <div class="tb-text">
+                            Downtime since last week
+                            <span>Updated 3 days ago</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            Chris Evans
+                            <span>on 23.05.2019</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            May 25, 2019
+                            <span>2:00 PM</span>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="span-3">
+                            Normal
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </td>
+                </tr>
+
+                <tr class="tr">
+                    <td class="tb-ticket">
+                        <div class="tb-img">
+                            <img src="/images/img17.svg" alt="">
+                        </div>
+                        <div class="tb-text">
+                            Referral Bonus
+                            <span>Updated 4 day ago</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            Sam Smith
+                            <span>on 22.05.2019</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            May 25, 2019
+                            <span>11:30 AM</span>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="span-2">
+                            low
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </td>
+                </tr>
+
+                <tr class="tr">
+                    <td class="tb-ticket">
+                        <div class="tb-img">
+                            <img src="/images/img18.svg" alt="">
+                        </div>
+                        <div class="tb-text">
+                            How do I change my password?Steve Rogers
+                            <span>Updated 6 days ago</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            Steve Rogers
+                            <span>on 21.05.2019</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="tb-text">
+                            May 24, 2019
+                            <span>1:00 PM</span>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="span-3">
+                            Normal
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <script src="/js/main.js"></script>
+</body>
+</html>
